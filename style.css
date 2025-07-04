@@ -1,3 +1,9 @@
+:root{
+	--primary-color: rgb(0, 128, 255);
+}
+
+
+
 *{
 	margin: 0;
 	padding: 0;
@@ -30,7 +36,7 @@ section {
 }
 
 .content-wrapper h6{
-	color: #7d87ff;
+	color: var(--primary-color);
 	font-size: 18px;
 	font-weight: 600;
 	line-height: 28px;
@@ -52,7 +58,7 @@ section {
 }
 
 .content-wrapper button {
-	background-color: #4f39f6;
+	background-color: var(--primary-color);
 	font-size: 16px;
 	font-weight: 600;
 	color: #fff;
